@@ -18,3 +18,5 @@ for i in range (n):
     sum = sum + (l[i])
 print (l)
 print ("sum",sum)
+
+n = int(input("enter number of elements "))

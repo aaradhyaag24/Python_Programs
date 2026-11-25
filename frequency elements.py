@@ -6,7 +6,7 @@ l2 = []
 
 l3 = []
 
-print ("elements for list 1",l1)
+print ("elements for list 1")
 
 for i in range (n):
 
@@ -14,7 +14,7 @@ for i in range (n):
 
     l1.append(j)
 
-print ("elements for list 2",l2)
+print ("elements for list 2")
 
 for i in range (n):
 
@@ -22,7 +22,7 @@ for i in range (n):
 
     l2.append(k)
 
-print("element for list 3",l3)
+print("common elements of list 3")
 
 for i in l1:
 
@@ -34,7 +34,7 @@ for i in l1:
 
             l3.append(i)
 
-print 
+
 
 
 

@@ -1,6 +1,6 @@
 n = int(input("enter number of elements "))
 
-l = [] * n
+l = [""] * n
 
 for i in range (n):
 

@@ -10,7 +10,7 @@ for i in range (n):
 
 print ("original list:", a)
 
-element = int(input("enter element to be inserted"))
+element = int(input("enter element to be inserted "))
 
 position = int(input("enter position "))
 
