@@ -24,8 +24,30 @@ for name in list (products.keys()):
 
 print ("available inventory", products)
 
-maximum_stock_products = max(products)
+highest_stock = 0
 
-print ("product with maximum stock  ", max(products))
+for key, value in products.items():
 
+    if value > highest_stock:
 
+        highest_stock = value
+
+        highest_product = key
+
+print("Maximum stock product:", highest_product, highest_stock)
+
+print("Products having stock less than 10")
+
+for key, value in products.items():
+
+    if value < 10:
+
+        print(key, value)
+
+print("Total available products:", len(products))
+
+for name in list(products.keys()):
+
+    if products[name] == 0:
+        
+        products.pop(name)

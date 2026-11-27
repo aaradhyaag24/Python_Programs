@@ -14,13 +14,27 @@ print ("students names   ",students_data.keys())
 
 print ("students marks    ",students_data.values())
 
-highest_marks = max(students_data)
+highest_marks = 0
 
-lowest_marks = min(students_data)
+lowest_marks = 100
 
-print (highest_marks)
+for key, value in students_data.items():
 
-print (lowest_marks)
+    if value > highest_marks:
+
+        highest_marks = value
+
+        highest_name = key
+
+    if value < lowest_marks:
+
+        lowest_marks = value
+
+        lowest_name = key
+
+print("Highest marks:", highest_name, highest_marks)
+
+print("Lowest marks:", lowest_name, lowest_marks)
 
 print ("total students   ",len(students_data))
 
